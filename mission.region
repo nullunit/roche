@@ -1,0 +1,93 @@
+
+<main class="content-container" role="main" data-content-field="main-content">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="margins">
+      <img src="assets/images/c2cmark_white.svg" alt="Code2Cure Logo" />
+      <squarespace:block-field id="hero--block" class="section-heading" columns="1"/>
+      <p class="section-cta">
+        <a href="positions.html" class="button">View Positions</a>
+      </p>
+    </div>
+  </section>
+
+
+  <nav class="site-navigation">
+    <div class="margins">
+      <ul class="nav-list">
+
+        <li class="site-navigation-item active-link">
+            <a href="#">
+              <div class="nav-icon"><img src="assets/icons/icon-culture.svg" alt="Menu Icon"/></div>
+              <div class="nav-icon-active"><img src="assets/icons/icon-culture-active.svg" alt="Highlighted Menu Icon" /></div>
+              <div class="nav-text">Culture</div>
+            </a>
+        </li>
+
+        <li class="site-navigation-item active-link">
+            <a href="#">
+              <div class="nav-icon"><img src="assets/icons/icon-mission.svg" alt="Menu Icon"/></div>
+              <div class="nav-icon-active"><img src="assets/icons/icon-mission-active.svg" alt="Highlighted Menu Icon" /></div>
+              <div class="nav-text">Mission</div>
+            </a>
+        </li>
+
+        <li class="site-navigation-item active-link">
+            <a href="#">
+              <div class="nav-icon"><img src="assets/icons/icon-positions.svg" alt="Menu Icon"/></div>
+              <div class="nav-icon-active"><img src="assets/icons/icon-positions-active.svg" alt="Highlighted Menu Icon" /></div>
+              <div class="nav-text">Positions</div>
+            </a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!-- Roche Intro -->
+  <section class="intro">
+      <div class="margins vmargins">
+        <squarespace:block-field id="intro--header" class="section-heading" columns="1"/>
+      </div>
+      <div class="halves">
+        <div class="image-half intro1" title="Photo of people working at their desks">
+        </div>
+        <div class="text-half">
+          <div class="text-container">
+            <squarespace:block-field id="intro--block1" columns="1"/>
+          </div>
+        </div>
+      </div>
+      <div class="halves reverse-halves">
+        <div class="image-half intro2" title="Photo of people working together in a conference room">
+        </div>
+        <div class="text-half">
+          <div class="text-container">
+            <squarespace:block-field id="intro--block2" columns="1"/>
+          </div>
+        </div>
+
+      </div>
+
+  </section>
+
+
+  <!-- Our Teams -->
+  <section class="teams">
+    <div class="margins">
+      <squarespace:block-field id="teams--header" class="section-heading" columns="1"/>
+      <squarespace:block-field id="teams--block" columns="12"/>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="margins">
+      <p>Want to know more?</p>
+      <h2><a href="/culture">Read about our Culture</a></h2>
+    </div>
+  </section>
+
+</main>

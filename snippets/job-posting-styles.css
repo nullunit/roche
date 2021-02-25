@@ -1,0 +1,24 @@
+.job-postings {
+  max-width: 650px;
+  margin: 0 auto;
+  .job-posting {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    border: 1px solid @faintGrey;
+    box-shadow: @cardShadows;
+    background-color: @white;
+    padding: 1.5em 2em;
+    margin: 0 0 10px;
+    h4 { display: block; line-height: 16px; color: @blue; margin: 0; padding: 0; }
+    span { display: block; line-height: 16px; color: @mediumGrey; margin: 0; padding: 0; }
+    transition: background-color 0.2s, border-color 0.2s;
+    &:hover {
+      background-color: @blue;
+      box-shadow: none;
+      border-color: @blue;
+      h4 { color: @white; }
+      span { color: @lightBlue; }
+    }
+  }
+}

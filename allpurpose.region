@@ -1,0 +1,56 @@
+<main class="content-container" role="main" data-content-field="main-content">
+
+    <section class="masthead">
+      <div class="margins">
+        <h1>{collection.title}</h1>
+      </div>
+    </section>
+
+    <nav class="site-navigation">
+      <div class="margins">
+        <ul class="nav-list">
+
+          <li class="site-navigation-item active-link">
+              <a href="#">
+                <div class="nav-icon"><img src="assets/icons/icon-culture.svg" alt="Menu Icon"/></div>
+                <div class="nav-icon-active"><img src="assets/icons/icon-culture-active.svg" alt="Highlighted Menu Icon" /></div>
+                <div class="nav-text">Culture</div>
+              </a>
+          </li>
+
+          <li class="site-navigation-item active-link">
+              <a href="#">
+                <div class="nav-icon"><img src="assets/icons/icon-mission.svg" alt="Menu Icon"/></div>
+                <div class="nav-icon-active"><img src="assets/icons/icon-mission-active.svg" alt="Highlighted Menu Icon" /></div>
+                <div class="nav-text">Mission</div>
+              </a>
+          </li>
+
+          <li class="site-navigation-item active-link">
+              <a href="#">
+                <div class="nav-icon"><img src="assets/icons/icon-positions.svg" alt="Menu Icon"/></div>
+                <div class="nav-icon-active"><img src="assets/icons/icon-positions-active.svg" alt="Highlighted Menu Icon" /></div>
+                <div class="nav-text">Positions</div>
+              </a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <section class="cms-content">
+        <div class="margins">
+          <!-- CMS Content -->
+          <squarespace:block-field id="cms-content--body" columns="12"/>
+        </div>
+    </section>
+
+    <section class="cta">
+      <div class="margins">
+        <p>Interested in Roche?</p>
+        <h2><a href="#">See our open positions</a></h2>
+      </div>
+    </section>
+
+
+</main>

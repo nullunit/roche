@@ -1,0 +1,27 @@
+<nav class="corp-navigation">
+  <div class="margins">
+    <div class="codetocure">
+      <a href="index.html">
+        <img src="assets/images/c2clogo_blue.svg" alt="Code2Cure Logo" />
+      </a>
+    </div>
+    <div class="corporate">
+      <div class="corporate-nav">
+        <ul class="corporate-nav-list">
+
+            <li>
+                <a href="#" target="_blank">
+                  {title}
+                </a>
+            </li>
+
+        </ul>
+      </div>
+      <div class="corporate-logo">
+        <a href="https://www.roche.com/" target="_blank">
+          <img src="assets/images/logo.svg" alt="Roche Logo" />
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,140 @@
+<main class="content-container" role="main" data-content-field="main-content">
+
+
+
+
+
+    <section class="masthead masthead-culture">
+      <div class="margins">
+        <h1>Our Culture</h1>
+      </div>
+    </section>
+
+    <nav class="site-navigation">
+      <div class="margins">
+        <ul class="nav-list">
+
+          <li class="site-navigation-item active-link">
+              <a href="culture.html">
+                <div class="nav-icon"><img src="assets/icons/icon-culture.svg" alt="Menu Icon"/></div>
+                <div class="nav-icon-active"><img src="assets/icons/icon-culture-active.svg" alt="Highlighted Menu Icon" /></div>
+                <div class="nav-text">Culture</div>
+              </a>
+          </li>
+
+          <li class="site-navigation-item">
+              <a href="mission.html">
+                <div class="nav-icon"><img src="assets/icons/icon-mission.svg" alt="Menu Icon"/></div>
+                <div class="nav-icon-active"><img src="assets/icons/icon-mission-active.svg" alt="Highlighted Menu Icon" /></div>
+                <div class="nav-text">Mission</div>
+              </a>
+          </li>
+
+          <li class="site-navigation-item">
+              <a href="positions.html">
+                <div class="nav-icon"><img src="assets/icons/icon-positions.svg" alt="Menu Icon"/></div>
+                <div class="nav-icon-active"><img src="assets/icons/icon-positions-active.svg" alt="Highlighted Menu Icon" /></div>
+                <div class="nav-text">Positions</div>
+              </a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- Video Grid -->
+    <section class="videos">
+      <div class="margins">
+        <squarespace:block-field id="videos--header" class="section-heading" columns="12"/>
+
+        <div class="video-grid">
+          <div class="grid-column grid-large">
+            <div class="gvideo row-large vid-topleft">
+              <a href="https://www.youtube.com/watch?v=01y-1gTbTWo" class="play-button" target="_blank">
+                <img src="assets/images/play-button.svg" alt="Video Cover Image: Woman sitting in a chair reading" />
+                <span>Watch: The future of patient-centered cancer care and&nbsp;research</span>
+              </a>
+            </div>
+            <div class="gvideo row-small vid-bottomleft">
+              <a href="https://www.youtube.com/watch?v=1BVT7jEmraI" class="play-button" target="_blank">
+                <img src="assets/images/play-button.svg" alt="Video Cover Image: A person sketching anthropomorphized T-Cells" />
+                <span>Watch: Unleashing the T-Cell army</span>
+              </a>
+            </div>
+          </div>
+          <div class="grid-column grid-small">
+            <div class="gvideo row-small vid-topright">
+              <a href="https://www.youtube.com/watch?v=w4iCian4tnQ" class="play-button" target="_blank">
+                <img src="assets/images/play-button.svg" alt="Video Cover Image: A person sketching anthropomorphized antibodies" />
+                <span>Watch: T-cell bispecific antibodies</span>
+              </a>
+            </div>
+            <div class="gvideo row-large vid-bottomright">
+              <a href="https://www.youtube.com/watch?time_continue=11&v=J_jArSImP6s" class="play-button" target="_blank">
+                <img src="assets/images/play-button.svg" alt="Video Cover Image: Narges Bani Asadi standing onstage at a conference" />
+                <span>Watch: Narges Bani Asadi &mdash; <em>Conquering the Yet</em></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Why Work Here? -->
+    <section class="impact">
+      <div class="margins">
+        Heading
+        <squarespace:block-field id="testimonies--header" class="section-heading" columns="1"/>
+
+        <div class="testimonies">
+          <!-- Block of testimonies -->
+          <a href="#" class="testimony" style="">
+            <article id="post-{id}">
+              <blockquote class="quote">{excerpt}</blockquote>
+              <div class="source">
+                <div class="source-info">
+                  <div class="source-name">{customContent.name}</div>
+                  <div class="source-title">{customContent.title}</div>
+                </div>
+                <div class="source-photo">
+                  <img src="#" alt="Photo of {customContent.name}" />
+                </div>
+              </div>
+            </article>
+          </a>
+
+        </div>
+
+       </div>
+    </section>
+
+    <!-- Our Culture -->
+    <section class="culture">
+      <div class="margins">
+        Heading and description block
+        <squarespace:block-field id="culture--header" class="section-heading" columns="1"/>
+        <squarespace:block-field id="culture--block1" columns="12"/>
+      </div>
+    </section>
+
+    <!-- Perks and Benefits -->
+    <section class="benefits">
+      <div class="margins">
+      Heading and description block
+        <squarespace:block-field id="benefits--header" class="section-heading" columns="1"/>
+        <squarespace:block-field id="benefits--block" columns="12"/>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="margins">
+        <p>Interested in Roche?</p>
+        <h2><a href="/positions">See our open positions</a></h2>
+      </div>
+    </section>
+
+
+
+</main>

@@ -1,0 +1,44 @@
+
+{.section item}
+
+  <article id="post-{id}" class="story" data-item-id="{id}">
+
+    <section class="story-heading">
+      <div class="margins">
+        <a href="/culture" class="story-back-button">
+          <img src="/assets/images/back-button.svg" alt="Back Arrow" />
+        </a>
+        <h1 class="story-title" data-content-field="title">
+          {.passthrough?}
+            <a href="{sourceUrl}" target="_blank">{title}</a>
+          {.or}
+            {title}
+          {.end}
+        </h1>
+      </div>
+    </section>
+
+
+    <!--MAIN CONTENT-->
+    <section class="story-content">
+      <div class="margins extra-narrow">
+        <div class="story-meta">
+          <div class="source-photo">
+            <img src="{assetUrl}" alt="Photo of {customContent.name}" />
+          </div>
+          <div class="source-info">
+            <p class="source-name">{customContent.name}</p>
+            <p class="source-title">{customContent.title}</p>
+          </div>
+        </div>
+        <div class="story-body">
+          {body}
+        </div>
+      </div>
+    </section>
+
+    {@|apply culture-cta.block}
+
+  </article>
+
+{.end}

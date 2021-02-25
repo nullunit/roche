@@ -1,0 +1,20 @@
+<!-- item loop -->
+{.repeated section items}
+
+
+  <a href="{fullUrl}" class="testimony" style="">
+    <article id="post-{id}">
+      <blockquote class="quote">{excerpt}</blockquote>
+      <div class="source">
+        <div class="source-info">
+          <div class="source-name">{customContent.name}</div>
+          <div class="source-title">{customContent.title}</div>
+        </div>
+        <div class="source-photo">
+          <img src="{assetUrl}" alt="Photo of {customContent.name}" />
+        </div>
+      </div>
+    </article>
+  </a>
+
+{.end}
